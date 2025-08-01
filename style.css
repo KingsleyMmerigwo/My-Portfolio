@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    border: 2px green solid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+   
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    font-size: 80%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.logo {
+    background-color: #DE8835;
+    color: white;
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding: 20px;
+}
+.logo1 {
+    background-color: #295F61;
+    color: white;
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding: 20px;
+}
+.logo2 {
+    background-color:#00413F;
+    color: white;
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding: 20px;
+}
+.logo h1, .logo1 h1, .logo2 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.logo p, .logo1 p, .logo2 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.logo button, .logo1 button, .logo2 button {
+    border: none;
+    margin-top: 70px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    font-style: bold;
+    border-radius: 20px;
+
+    align-content: center;
+    
+}
+.logo button {
+    color:#DE8835;
+   
+}
+.logo1 button {
+    color:#295F61;
+}
+.logo2 button {
+    color:#00413F;
+}
+
+
+/*responsive design on mobile screen */
+@media screen {
+    
+}
